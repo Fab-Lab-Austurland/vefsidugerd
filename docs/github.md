@@ -54,3 +54,19 @@
 !!! Info "Lén með endingunni .is"
 
     Á vefsíðu ISNIC er hægt að velja lén og skrá það. Það þarf að greiða árlega fyrir lénið. Smelltu [hér](https://www.isnic.is/). 
+
+!!! Info "Lén vottað"
+
+    Það þarf að votta lénið áður en það er tengt við GitHub vefsíðuna. Það er t.d. hægt hjá fyrirtækjum eins og Origo.
+
+!!! Info "Lén tengt við GitHub síðu"
+
+    * Á GitHub síðunni er smellt á **Settings** sem er ofarlega á GitHub. 
+    
+    * Svo er smellt á **Pages**. Þar er hægt að skrá lénið í glugga undir **Custom domain**. 
+    
+    * Næst er beðið um TXT record. Taktu afrit af því og einnig af kóðanum sem er í glugganum fyrir neðan. Þessar upplýsingar þarf að skrá hjá ISNIC léninu.
+
+    * Þessar breytingar eru sólarhring eða lengur að virkjast.
+
+
