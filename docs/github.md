@@ -63,4 +63,12 @@
 
     * Þessar breytingar eru sólarhring eða lengur að virkjast.
 
+!!! Info "Stillingar á ISNIC"
 
+    * Velja **Breyta DNS færslum**
+    
+    * CNAME = nafnið á Repository
+
+    * Færa inn TXT record og kóðann sem fylgdi.
+
+    
