@@ -20,8 +20,8 @@ theme:
     - content.code.annotation
     - content.code.copy
   
-  logo: LogoHvitt.svg
-  favicon: FabLogo.png
+  logo: docs/img_logo/LogoHvitt.svg
+  favicon: docs/img_logo/FabLogo.png
 
   palette:
     - media: "(prefers-color-scheme: light)"
