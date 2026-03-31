@@ -36,12 +36,6 @@
     Þú getur einnig fundið góðar leiðbeiningar frá GitHub [hér](https://docs.github.com/en/pages/quickstart). 
 
 
-!!! Info "M"
-
-    Hð [hér]() og fylgdu leiðbeiningunum. 
-
-
-
 
 ## Að skrá lén
 
