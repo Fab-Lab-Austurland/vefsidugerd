@@ -1,1 +1,79 @@
-site_name: My Docs
+site_name: Vefsíðugerð
+site_url: https://fabaust.is/vefsidugerd/
+repo_url: https://github.com/Fab-Lab-Austurland/vefsidugerd
+repo_name: Fab-Lab-Austurland/vefsidugerd
+site_dir: public
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.integrate
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  
+  logo: LogoHvitt.svg
+  favicon: FabLogo.png
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: green
+      accent: black 
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: cyan
+  font:
+    text: Roboto
+    code: Roboto Slab
+    headings:
+      weight: bold
+      color: black
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite:
+- pymdownx.snippets
+- pymdownx.critic
+- pymdownx.caret
+- pymdownx.keys
+- pymdownx.mark
+- pymdownx.tilde
+- attr_list
+- tables
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.arithmatex:
+    generic: true
+- footnotes
+- def_list    
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.superfences:
+  
+nav:
+- Heim: index.md
+- Gerð vefsíðu á GitHub: github.md
+
+use_directory_urls: true  
+
+copyright: Copyright &copy; 2025 Fab Lab Austurland - Mýrargötu 10 - 740 Neskaupstaður - fablabausturland@gmail.com 
